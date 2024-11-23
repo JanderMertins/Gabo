@@ -1,0 +1,108 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    /* Fundo com imagem */
+    background-image: url('fundo1.png');
+    background-size: cover;       /* Ajusta a imagem para cobrir toda a tela */
+    background-position: top center; /* Alinha a imagem ao topo da tela */
+    background-repeat: no-repeat;  /* Evita repetição da imagem */
+    
+    /* Garantir que o fundo cubra a tela */
+    min-height: 100vh; /* Altura mínima igual à altura da janela */
+}
+
+/* Estilo do container principal */
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    padding: 20px;
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo do texto */
+h1, p, a {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #333; /* Cor sólida escura para boa legibilidade */
+    text-transform: uppercase; /* Caixa alta */
+}
+
+/* Estilo para o título */
+h1 {
+    font-size: 2rem; /* Ajusta o tamanho da fonte do título */
+}
+
+/* Estilo dos botões - Geral */
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Botões da página index.html */
+.btn-nao {
+    background-color: red; /* Vermelho para "Não" */
+}
+
+.btn-nao:hover {
+    background-color: darkred; /* Escurece o vermelho */
+}
+
+.btn-sim {
+    background-color: green; /* Verde para "Sim" */
+}
+
+.btn-sim:hover {
+    background-color: darkgreen; /* Escurece o verde */
+}
+
+/* Botões específicos da página não.html */
+.btn-nao-pink {
+    background-color: #d5006d; /* Rosa Pink */
+}
+
+.btn-nao-pink:hover {
+    background-color: #9e0041; /* Cor mais escura ao passar o mouse */
+}
+
+.btn-sim-black {
+    background-color: #000; /* Preto */
+}
+
+.btn-sim-black:hover {
+    background-color: #333; /* Cor mais clara de preto ao passar o mouse */
+}
+/* Botão "Ok, eu sou realmente tchola" em rosa */
+.btn-rosa {
+    background-color: #d5006d; /* Rosa Pink */
+}
+
+.btn-rosa:hover {
+    background-color: #9e0041; /* Cor mais escura de rosa ao passar o mouse */
+}
+/* Botão "Resgate seu prêmio" em dourado */
+.btn-dourado {
+    background-color: #FFD700; /* Dourado */
+    color: rgb(0, 255, 13);
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn-dourado:hover {
+    background-color: #FFB300; /* Cor mais escura de dourado ao passar o mouse */
+}
